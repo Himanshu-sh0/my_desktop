@@ -9,6 +9,6 @@ chmod +x restore-default-desktop.sh
 
 ./termux-desktop.sh
 ./create-macos-script.sh
-./restore-default-desktop.sh
+
 
 rm -rf desktop-setup.sh
