@@ -9,7 +9,7 @@ chmod +x restore-default-desktop.sh
 
 ./termux-desktop.sh
 ./create-macos-script.sh
-
+clear
 echo "➡-------------------------------"
 echo -e "\n✅ Commands added successfully!"
 echo "➡ Run \`install-termux-desktop\` to install the desktop."
