@@ -1,7 +1,7 @@
 #!/data/data/com.termux/files/usr/bin/bash
-wget https://raw.githubusercontent.com/Himanshu-sh0/my_desktop/refs/heads/main/termux-desktop.sh
-wget https://raw.githubusercontent.com/Himanshu-sh0/my_desktop/refs/heads/main/create-macos-script.sh
-wget https://raw.githubusercontent.com/Himanshu-sh0/my_desktop/refs/heads/main/restore-default-desktop.sh
+curl -O https://raw.githubusercontent.com/Himanshu-sh0/my_desktop/refs/heads/main/termux-desktop.sh
+curl -O https://raw.githubusercontent.com/Himanshu-sh0/my_desktop/refs/heads/main/create-macos-script.sh
+curl -O https://raw.githubusercontent.com/Himanshu-sh0/my_desktop/refs/heads/main/restore-default-desktop.sh
 
 chmod +x termux-desktop.sh
 chmod +x create-macos-script.sh
