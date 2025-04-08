@@ -12,11 +12,12 @@ chmod +x restore-default-desktop.sh
 clear
 echo "➡-------------------------------"
 echo -e "\n✅ Commands added successfully!"
+echo "➡-------------------------------"
 echo "➡ Run \`install-termux-desktop\` to install the desktop."
 echo "➡ Run \`start-termux-desktop\` to start the desktop."
 echo "➡-------------------------------"
 echo "➡ Install Size:- 2.5-GB."
-echo "➡-------------------------------"
+echo "➡-------------------------------\n"
 echo "➡ Run \`macos-install\` to install macos customization files."
 echo "➡ Run \`macos-customize\` to customize the desktop."
 echo "➡-------------------------------"
