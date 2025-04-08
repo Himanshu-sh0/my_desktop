@@ -2,9 +2,14 @@
 curl -O https://raw.githubusercontent.com/Himanshu-sh0/my_desktop/refs/heads/main/termux-desktop.sh
 curl -O https://raw.githubusercontent.com/Himanshu-sh0/my_desktop/refs/heads/main/create-macos-script.sh
 curl -O https://raw.githubusercontent.com/Himanshu-sh0/my_desktop/refs/heads/main/restore-default-desktop.sh
-
+ 
 chmod +x termux-desktop.sh
-#!/bin/bash
+chmod +x create-macos-script.sh
+chmod +x restore-default-desktop.sh
+ 
+./termux-desktop.sh
+./create-macos-script.sh
+clear
 
 # Define colors
 GREEN='\033[0;32m'    # Green
@@ -33,6 +38,5 @@ echo ""
 log "macos-install" "to intall macos customization files."
 size_log "0.7-GB"
 log "macos-customize" "to customize the desktop"
-echo "➡-------------------------------\n"
-rm -rf desktop-setup.sh
 
+rm -rf desktop-setup.sh
